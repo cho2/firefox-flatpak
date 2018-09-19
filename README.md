@@ -1,17 +1,36 @@
 # Firefox Flatpak Repo
 ### For development purpose only
 ---
-Add remote
+* Add remote
 
-`flatpak remote-add --no-gpg-verify firefox https://blog.kukuh.syafaat.id/firefox-flatpak-repo/repo/`
+    * on system
+    ```
+    flatpak remote-add --no-gpg-verify firefox 
+    https://blog.kukuh.syafaat.id/firefox-flatpak-repo/repo/
+    ```
 
-Install
+    * on user
+    ```
+    flatpak remote-add --user --no-gpg-verify firefox 
+    https://blog.kukuh.syafaat.id/firefox-flatpak-repo/repo/
+    ```
 
-`sudo flatpak install firefox org.mozilla.Firefox`
+* Install
 
-Run
+    * on system
+    ```
+    sudo flatpak install firefox org.mozilla.Firefox
+    ```
 
-`flatpak run org.mozilla.Firefox`
+    * on user
+    ```
+    flatpak install --user firefox org.mozilla.Firefox
+    ```
+
+* Run
+```
+flatpak run org.mozilla.Firefox
+```
 
 ### TODO
 * GPG signatures
