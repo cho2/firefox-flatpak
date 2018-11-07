@@ -4,7 +4,7 @@
 
 [Flatpakref](https://raw.githubusercontent.com/cho2/firefox-flatpak-repo/master/firefox.flatpakref)
 
-* Install
+* Add Remote
 ```
 flatpak remote-add --gpg-import=https://blog.kukuh.syafaat.id/firefox-flatpak-repo/flatpak.gpg firefox https://blog.kukuh.syafaat.id/firefox-flatpak-repo/repo
 ```
