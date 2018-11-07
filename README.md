@@ -6,11 +6,12 @@
 
 * Install
 ```
-flatpak install firefox.flatpakref
+flatpak remote-add --gpg-import=https://blog.kukuh.syafaat.id/firefox-flatpak-repo/flatpak.gpg firefox https://blog.kukuh.syafaat.id/firefox-flatpak-repo/repo
 ```
-or
+
+* Install
 ```
-flatpak install https://blog.kukuh.syafaat.id/firefox-flatpak-repo/firefox.flatpakref
+flatpak install firefox org.mozilla.Firefox
 ```
 
 * Run
@@ -23,4 +24,4 @@ flatpak run org.mozilla.Firefox
 * ~~Flatpakref files~~
 
 ---
-Flatpak source code: https://github.com/cho2/org.mozilla.Firefox
+Flatpak source code: [https://github.com/cho2/org.mozilla.Firefox](https://github.com/cho2/org.mozilla.Firefox)
