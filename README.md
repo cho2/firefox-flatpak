@@ -2,16 +2,9 @@
 ### For development purpose only
 ---
 
-[Flatpakref](https://raw.githubusercontent.com/cho2/firefox-flatpak-repo/master/firefox.flatpakref)
-
-* Add Remote
-```
-flatpak remote-add --gpg-import=https://blog.kukuh.syafaat.id/firefox-flatpak-repo/flatpak.gpg firefox https://blog.kukuh.syafaat.id/firefox-flatpak-repo/repo
-```
-
 * Install
 ```
-flatpak install firefox org.mozilla.Firefox
+flatpak install --from https://raw.githubusercontent.com/cho2/firefox-flatpak-repo/master/firefox.flatpakref
 ```
 
 * Run
