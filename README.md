@@ -18,3 +18,5 @@ flatpak run org.mozilla.Firefox
 
 ---
 Flatpak source code: [https://github.com/cho2/org.mozilla.Firefox](https://github.com/cho2/org.mozilla.Firefox)
+
+PS: not maintained
